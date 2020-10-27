@@ -1,0 +1,89 @@
+@font-face{
+    font-family:Open-sans;
+    src: url(OpenSans-ExtraBold.ttf);
+}
+#Background{
+    color: #A8E9FF;
+}
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 140px;
+    height: 80px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #005875;
+    opacity: 1; /* Firefox */
+  }
+.DateInputs{
+    width: 120px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #52D4FF;
+    border-width:0px;
+    border:none;
+    color: #005875;
+    font-family: Open-sans;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ButtonInput{
+    width: 70px;
+    height: 17px;
+    border-radius: 100px;
+    background-color: #009FD6;
+    border-width:0px;
+    border:none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+.buttonIcon{
+    background: url(img/searchIcon.png) no-repeat;
+    cursor:pointer;
+    border: none;
+    background-size: 25px;
+    width:25px;
+    height: 25px;
+    outline: none;
+    
+}
+.divCool{
+    margin: 0 auto;
+    padding: 10px;
+    width:800px;
+    text-align: center;
+}
+.YearMonthView{
+    color: #005875;
+    font-family: Open-sans;
+    font-size: 70px;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.MonthMonthView{
+    color: #005875;
+    font-family: Open-sans;
+    font-size: 50px;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Arrows{
+    display: inline;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
